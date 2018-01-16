@@ -1,20 +1,15 @@
 import React from 'react'
+import Link from 'gatsby-link'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
-import Header from '../components/Header'
-import './index.css'
+import TitleBar from '../components/title-bar'
 
-const TemplateWrapper = ({ children }) => (
+const TemplateWrapper = ({ children, data }) => (
   <div>
-    <Helmet
-      title="Gatsby Default Starter"
-      meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
-      ]}
-    />
-    <Header />
+    <Helmet>
+      <title>{data.site.siteMetadata.defaultTitle}</title>
+    </Helmet>
     <div
       style={{
         margin: '0 auto',
@@ -23,6 +18,9 @@ const TemplateWrapper = ({ children }) => (
         paddingTop: 0,
       }}
     >
+      <TitleBar 
+        title={data.site.siteMetadata.defaultTitle}
+      />
       {children()}
     </div>
   </div>
@@ -33,3 +31,13 @@ TemplateWrapper.propTypes = {
 }
 
 export default TemplateWrapper
+
+export const query = graphql`
+    query LayoutQuery {
+        site {
+            siteMetadata {
+                defaultTitle
+            }
+        }
+    }
+`
