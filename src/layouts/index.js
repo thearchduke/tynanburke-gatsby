@@ -18,9 +18,7 @@ const TemplateWrapper = ({ children, data }) => (
         paddingTop: 0,
       }}
     >
-      <TitleBar 
-        title={data.site.siteMetadata.defaultTitle}
-      />
+      <TitleBar />
       {children()}
     </div>
   </div>
