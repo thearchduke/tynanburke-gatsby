@@ -5,7 +5,7 @@ twinPeaksTheme.overrideThemeStyles = ({ adjustFontSizeTo, rhythm }, options, sty
     a: {
         color: `#78f`,
         backgroundImage: `linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 1px, #abc 1px, #abc 2px, rgba(0, 0, 0, 0) 2px)`
-    }
+    },
 })
 var typography = new Typography(twinPeaksTheme);
 

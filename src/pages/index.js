@@ -13,7 +13,6 @@ I also write and draw <Link to="/words/#againststupidity">a webcomic</Link>,
 host <Link to="/work/#pathfork">a free writing-tools website</Link>, 
 (very) occasionally <a href="https://tynan.blog">blog</a>,
 and have <Link to="/photos/">a small sampling</Link> of photography.</p>
-    <p></p>
   </div>
 )
 
