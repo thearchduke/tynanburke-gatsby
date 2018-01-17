@@ -13,6 +13,8 @@
     "gatsby-plugin-typography": "^1.7.10",
     "gatsby-source-filesystem": "^1.5.11",
     "gatsby-transformer-sharp": "^1.6.16",
+    "optipng": "^1.1.0",
+    "pngquant": "^1.3.0",
     "react-helmet": "^5.2.0",
     "typography-theme-twin-peaks": "^0.15.11"
   },

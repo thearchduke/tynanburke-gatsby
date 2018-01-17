@@ -4,4 +4,17 @@
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
 
- // You can delete this file if you're not using it
+ exports.shouldUpdateScroll = args => {
+    return false;
+};
+
+exports.onRouteUpdate = ({location}) => {
+    if (location.hash) {
+        const hash = location.hash;
+        setTimeout(() => {
+          let el = document.querySelector(hash);
+          el.classList.add("selected-anchor");
+          el.scrollIntoView();
+        }, 0);
+    }
+};

@@ -1,5 +1,5 @@
-import Typography from "typography";
-import twinPeaksTheme from 'typography-theme-twin-peaks';
+import Typography from "typography"
+import twinPeaksTheme from 'typography-theme-twin-peaks'
 
 twinPeaksTheme.overrideThemeStyles = ({ adjustFontSizeTo, rhythm }, options, styles) => ({
     a: {
