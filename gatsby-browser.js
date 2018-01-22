@@ -19,6 +19,7 @@ exports.onRouteUpdate = ({location}) => {
           el.scrollIntoView();
         }, 0);
     }
+    console.log(location);
     if (location.pathname === '/dev') {
         setTimeout(() => {
             animation();
