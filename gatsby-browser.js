@@ -4,7 +4,7 @@
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
 
-import animation from './src/utils/animation'
+import { devAnimation } from './src/utils/animation'
 
 exports.shouldUpdateScroll = args => {
     return false;
@@ -21,7 +21,7 @@ exports.onRouteUpdate = ({location}) => {
     }
     if (location.pathname.startsWith('/dev')) {
         setTimeout(() => {
-            animation();
+            devAnimation();
         }, 0);
     }
 };

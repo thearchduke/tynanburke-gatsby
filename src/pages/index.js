@@ -5,7 +5,7 @@ import UrlFor from '../utils/urls'
 
 export default () => (
   <div>
-    <h1>Greetings.</h1>
+    <h1 id="greetings">Greetings.</h1>
     <p>Welcome to my corner of the Web. My name is Tynan Burke, and I'm a web developer, digital librarian, and writer.</p>
 
     <p>According to the logs, most people come here for my <Link to={UrlFor("work")}>resumé and portfolio</Link>.</p>
