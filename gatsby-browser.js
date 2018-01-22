@@ -4,7 +4,9 @@
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
 
- exports.shouldUpdateScroll = args => {
+import animation from './src/utils/animation'
+
+exports.shouldUpdateScroll = args => {
     return false;
 };
 
@@ -15,6 +17,11 @@ exports.onRouteUpdate = ({location}) => {
           let el = document.querySelector(hash);
           el.classList.add("selected-anchor");
           el.scrollIntoView();
+        }, 0);
+    }
+    if (location.pathname === '/dev') {
+        setTimeout(() => {
+            animation();
         }, 0);
     }
 };
