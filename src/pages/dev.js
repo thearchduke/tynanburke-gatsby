@@ -49,8 +49,8 @@ export default ({ data }) => (
 /* text to SVG usage https://www.npmjs.com/package/text-to-svg
 const TextToSVG = require('text-to-svg');
 const textToSVG = TextToSVG.loadSync('Rosario-Regular.ttf');
-const attributes = {fill: 'red', stroke: 'black'};
+const attributes = {fill: 'none', stroke: 'black'};
 const options = {x: 0, y: 0, fontSize: 72, anchor: 'top', attributes: attributes};
-const svg = textToSVG.getSVG('hello', options);
+var svg = textToSVG.getSVG('hello', options);
 console.log(svg);
 */

@@ -4,12 +4,24 @@ const indexAnimation = () => {
     anime({
         targets: 'path',
         strokeDashoffset: [anime.setDashoffset, 0],
-        easing: 'easeInCubic',
+        easing: 'easeInSine',
         duration: 2800,
-        //delay: function(el, i) { return i * 250 },
-        direction: 'alternate',
         loop: false,
     })
 }
 
-export default {'/': indexAnimation}
+const workAnimation = () => {
+    anime({
+        targets: 'path',
+        strokeDashoffset: [anime.setDashoffset, 0],
+        easing: 'easeInSine',
+        duration: 1800,
+        loop: false,
+    })
+}
+
+export default {
+    '/': indexAnimation,
+    '/work': workAnimation,
+    '/work/': workAnimation,
+}
