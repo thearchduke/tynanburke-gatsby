@@ -8,12 +8,14 @@ twinPeaksTheme.overrideThemeStyles = ({ adjustFontSizeTo, rhythm }, options, sty
     },
     blockquote: {
         borderLeft: `${rhythm(3/16)} solid #78f`,
+        fontSize: `20px`,
+        lineHeight: `1.4`,
     },
     p: {
         fontSize: `20px`,
     }
 })
-twinPeaksTheme.scaleRatio = 3
+//twinPeaksTheme.scaleRatio = 3
 var typography = new Typography(twinPeaksTheme);
 
 export default typography;

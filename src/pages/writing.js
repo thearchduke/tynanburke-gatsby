@@ -12,7 +12,7 @@ export default () => (
         </PortfolioItem>
         <PortfolioItem headline="Comics">
             <p>I write and draw <a href="https://againststupiditycomic.wordpress.com">a webcomic</a>.</p>
-            <blockquote>Jesse Grunwald recently inherited his grandmother's vintage Victorian in Denver. This spring, he accepted a journalism scholarship at a nearby college, and now he's ready to move in. What he doesn't know is that he didn't just inherit his grandmother's house--he also inherited the powerful sorceress's enemies...</blockquote>
+            <blockquote>Jesse Grunwald recently inherited his grandmother's vintage Victorian in Denver. This spring, he accepted a journalism scholarship at a nearby college, and now he's ready to move in. What he doesn't know is that he didn't just inherit his grandmother's <b>house</b>--he also inherited the powerful sorceress's <b>enemies</b>...</blockquote>
         </PortfolioItem>
     </div>
 )

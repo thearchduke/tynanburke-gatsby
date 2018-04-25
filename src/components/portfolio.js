@@ -23,7 +23,7 @@ export default () => (
             <p><a href="https://github.com/thearchduke/wordpress-picture-submissions">A Flask app</a> that takes submissions for a travel photos feature, provides an admin panel for managing them, and ultimately posts the collections you select as draft posts to a Wordpress site. Currently live.</p>
         </PortfolioItem>
         <PortfolioItem headline="other">
-            <p>This site (tynanburke.com) was made in <a href="https://www.gatsbyjs.org">gatsby</a>, a react-based static site generator. The code is <a href="https://github.com/thearchduke/tynanburke-gatsby">on GitHub</a>.</p>
+            <p>This site (tynanburke.com) was made in <a href="https://www.gatsbyjs.org">gatsby</a>, a react-based static site generator. The code is <a href="https://github.com/thearchduke/tynanburke-gatsby">on GitHub</a>. And of course I have many other things on my GitHub account as well.</p>
         </PortfolioItem>
     </ul>
 </div>

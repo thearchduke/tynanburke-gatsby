@@ -4,16 +4,14 @@ import UrlFor from '../utils/urls'
 
 
 const TitleLink = props => (
-    <div style={{ width: `25%`, float: `left`, margin: `0 auto` }}>
-        <Link style={{ color: `black`, fontVariant: `small-caps`, fontSize: `18px` }} to={UrlFor(props.to)}>{props.text}</Link>
-    </div>
+    <Link style={{ color: `black`, fontVariant: `small-caps`, fontSize: `20px` }} to={UrlFor(props.to)}>{props.text}</Link>
 )
 
 export default () => (
-    <div style={{ paddingTop: `15px`, paddingLeft: `10%`, margin: `0 auto`, width: `80%` }}>
-        <TitleLink to="home" text="home"/>
-        <TitleLink to="work" text="work"/>
+    <div style={{ paddingTop: `15px`, margin: `0 auto`, textAlign: `center` }}>
+        <TitleLink to="home" text="home"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <TitleLink to="work" text="work"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <TitleLink to="writing" text="words"/>
-        <TitleLink to="photography" text="photos"/>
+        <br/><br/><hr/>
     </div>
 )
