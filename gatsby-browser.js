@@ -12,11 +12,16 @@ exports.shouldUpdateScroll = args => {
 
 exports.onRouteUpdate = ({location}) => {
     if (location.hash) {
+        // in-page anchors don't work out of the box with Gatsby
         const hash = location.hash;
         setTimeout(() => {
           let el = document.querySelector(hash);
-          el.classList.add("selected-anchor");
-          el.scrollIntoView();
+          if (el != null) {
+            el.classList.add("selected-anchor");
+            el.scrollIntoView();            
+          } else {
+            return;
+          }
         }, 0);
     }
     if (routesAnimationsMap[location.pathname] !== undefined) {

@@ -1,9 +1,9 @@
 import React from 'react'
 
 
-const PortfolioItem = props => (
+export const PortfolioItem = props => (
     <li>
-        <h4 id={props.headline}><a name={props.headline}></a>{props.headline}</h4>
+        <h4 id={props.anchor || props.headline.replace(/ /g,'')}><a name={props.anchor || props.headline.replace(/ /g,'')}></a>{props.headline}</h4>
         {props.children}
     </li>
 )

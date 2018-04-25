@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import UrlFor from '../utils/urls'
 
+
 const TitleLink = props => (
     <div style={{ width: `25%`, float: `left`, margin: `0 auto` }}>
         <Link style={{ color: `black`, fontVariant: `small-caps` }} to={UrlFor(props.to)}>{props.text}</Link>
