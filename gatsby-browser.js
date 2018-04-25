@@ -16,7 +16,7 @@ exports.onRouteUpdate = ({location}) => {
         const hash = location.hash;
         setTimeout(() => {
           let el = document.querySelector(hash);
-          if (el != null) {
+          if (el !== null) {
             el.classList.add("selected-anchor");
             el.scrollIntoView();            
           } else {
