@@ -29,6 +29,7 @@ export default ({ children, data }) => (
       style={{
         margin: '0 auto',
         maxWidth: 960,
+        minHeight: `85vh`,
         padding: '0px 1.0875rem 1.45rem',
         paddingTop: 0,
         backgroundColor: `white`,
