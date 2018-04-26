@@ -15,7 +15,7 @@ twinPeaksTheme.overrideThemeStyles = ({ adjustFontSizeTo, rhythm }, options, sty
         ...adjustFontSizeTo(`18px`),
     },
     '.title-bar > a': {
-        ...adjustFontSizeTo(`20px`),
+        ...adjustFontSizeTo(`22px`),
     },
 })
 twinPeaksTheme.baseFontSize = `18px`

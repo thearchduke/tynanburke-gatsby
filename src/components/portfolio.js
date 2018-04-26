@@ -20,7 +20,7 @@ export default () => (
             <p>It is written in Go, uses postgres for persistence, and a dash of javascript on the front-end. Currently served by Heroku. The code is available <a href="https://github.com/thearchduke/pathfork">on GitHub</a>.</p>
         </PortfolioItem>
         <PortfolioItem headline="Wordpress picture tool">
-            <p>I volunteer small projects for a few websites I read. One is <a href="https://github.com/thearchduke/wordpress-picture-submissions">a Flask app</a> for a travel photos feature. It takes submissions and provides an admin panel for managing them, utilizing the Wordpress REST API to turn selected collections into draft posts on the main site. Currently live, though I don't manage the deployment, so that link is to GitHub.</p>
+            <p>I volunteer time for small projects for a few websites I read. One is <a href="https://github.com/thearchduke/wordpress-picture-submissions">a Flask app</a> for a travel photos feature. It takes submissions and provides an admin panel for managing them, utilizing the Wordpress REST API to turn selected collections into draft posts on the main site. Currently live, though I don't manage the deployment, so that link is to GitHub.</p>
         </PortfolioItem>
         <PortfolioItem headline="Other">
             <p>This site (tynanburke.com) was made in <a href="https://www.gatsbyjs.org">gatsby</a>, a react-based static site generator. The code is <a href="https://github.com/thearchduke/tynanburke-gatsby">on GitHub</a>. And of course I have many other things on my GitHub account as well.</p>

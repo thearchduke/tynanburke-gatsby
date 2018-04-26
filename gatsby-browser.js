@@ -26,6 +26,7 @@ exports.onRouteUpdate = ({location}) => {
         }, 0);
     }
     if (routesAnimationsMap[location.pathname] !== undefined) {
+        // trigger anime.js svg animation for top text with per-page parameters
         setTimeout(() => {
             routesAnimationsMap[location.pathname]();
         }, 0);

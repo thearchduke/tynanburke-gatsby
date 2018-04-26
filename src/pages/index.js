@@ -11,13 +11,14 @@ export default () => (
     <h2>Welcome to my corner of the Web.</h2>
     <p>My name is Tynan Burke, and I'm a web developer, digital librarian, and writer.</p>
 
-    <p>According to the logs, most people come here for my <Link to={UrlFor("work")}>resumé and portfolio</Link>.</p>
+    <p>According to the logs, most people come here for my <Link to={UrlFor("work")}>résumé and portfolio</Link>.</p>
 
-    <p>If you are not one of these people, or if you are but would like to see other things as well, 
-        I also write and draw <Link to={UrlFor("writing") + "#Comics"}>a webcomic</Link>, 
+    <p>
+        If you are not one of these people, 
+        or if you are but would like to see other things as well, 
+        I also <Link to={UrlFor("writing")}>write and draw</Link>, 
         host <Link to={UrlFor("work") + '#Pathfork'}>a free writing-tools website</Link>, 
-        (very) occasionally <a href="https://tynan.blog">blog</a>,
-        and have <Link to={UrlFor("photography")}>a small sampling</Link> of photography.
+        and (very) occasionally <a href="https://tynan.blog">blog</a>.
     </p>
   </div>
 )
