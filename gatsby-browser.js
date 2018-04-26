@@ -18,7 +18,8 @@ exports.onRouteUpdate = ({location}) => {
           let el = document.querySelector(hash);
           if (el !== null) {
             el.classList.add("selected-anchor");
-            el.scrollIntoView();            
+            el.scrollIntoView();
+            return;
           } else {
             return;
           }

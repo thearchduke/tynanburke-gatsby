@@ -11,7 +11,7 @@ export default () => (
             <p>I write short stories and novels. Right now I'm putting the finishing touches on a book that's been getting very positive feedback, and during breaks from that I've been working on short stories, one of which will be published soon (link when available).</p>
         </PortfolioItem>
         <PortfolioItem headline="Comics">
-            <p>I write and draw <a href="https://againststupiditycomic.wordpress.com">a webcomic</a>.</p>
+            <p>I write and draw a webcomic, <i><a href="https://againststupiditycomic.wordpress.com">Against Stupidity</a></i>.</p>
             <blockquote>Jesse Grunwald recently inherited his grandmother's vintage Victorian in Denver. This spring, he accepted a journalism scholarship at a nearby college, and now he's ready to move in. What he doesn't know is that he didn't just inherit his grandmother's <b>house</b>--he also inherited the powerful sorceress's <b>enemies</b>...</blockquote>
         </PortfolioItem>
     </div>

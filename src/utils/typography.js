@@ -1,4 +1,4 @@
-import Typography from "typography"
+import Typography, { rhythm } from "typography"
 import twinPeaksTheme from 'typography-theme-twin-peaks'
 
 twinPeaksTheme.overrideThemeStyles = ({ adjustFontSizeTo, rhythm }, options, styles) => ({
@@ -8,14 +8,17 @@ twinPeaksTheme.overrideThemeStyles = ({ adjustFontSizeTo, rhythm }, options, sty
     },
     blockquote: {
         borderLeft: `${rhythm(3/16)} solid #78f`,
-        fontSize: `20px`,
-        lineHeight: `1.4`,
+        lineHeight: rhythm(1.4),
+        ...adjustFontSizeTo(`18px`),
     },
     p: {
-        fontSize: `20px`,
-    }
+        ...adjustFontSizeTo(`18px`),
+    },
+    '.title-bar > a': {
+        ...adjustFontSizeTo(`20px`),
+    },
 })
-//twinPeaksTheme.scaleRatio = 3
+twinPeaksTheme.baseFontSize = `18px`
 var typography = new Typography(twinPeaksTheme);
 
 export default typography;
