@@ -10,11 +10,8 @@ export const PortfolioItem = props => (
 
 export default () => (
 <div>
-    <h2>Portfolio</h2>
+    <h2>Sample projects</h2>
     <ul>
-        <PortfolioItem headline="Gallery">
-            <p>(pictures of visualizations and such)</p>
-        </PortfolioItem>
         <PortfolioItem headline="Pathfork">
             <p><a href="https://pathfork.herokuapp.com">Pathfork</a> is a website that I built because I wanted a cloud-based writing organization tool. It lets you compose stories, and manage information about your characters and settings, adding them like blog tags to the sections of your work. I use it to organize short stories and my webcomic, though I saw the initial need while trying to remember which characters in a novel wore watches.</p>
             <p>It is written in Go, uses postgres for persistence, and a dash of javascript on the front-end. Currently served by Heroku. The code is available <a href="https://github.com/thearchduke/pathfork">on GitHub</a>.</p>

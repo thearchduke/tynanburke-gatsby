@@ -16,7 +16,7 @@ export default () => (
             </p>
         </PortfolioItem>
         <PortfolioItem headline="Comics">
-            <p>I write and draw a webcomic, 
+            <p>I write and draw a webcomic,&nbsp; 
                 <i><a href="https://againststupiditycomic.wordpress.com">Against Stupidity</a></i>.
             </p>
             <blockquote>

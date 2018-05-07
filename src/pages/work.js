@@ -9,7 +9,7 @@ export default () => (
     </svg>
     <h2>In brief</h2>
     <p>I'm a full-stack web developer with over ten years' experience. My current work finds me developing primarily in python, ruby, and javascript, with a bit of PHP via Wordpress. On the backend I enjoy using postgres and deploying with Google App Engine or Heroku, unless something fancier is needed. I also do data modeling and management, and some digital librarianship.</p>
-    <p>You can download my résumé {/*TODO*/}<a href="https://resume-on-CDN">here (PDF)</a>. I'm also on GitHub as <a href="https://github.com/thearchduke">thearchduke</a>, and <a href="https://www.linkedin.com/in/tynan-burke-27537122?trk=hp-identity-name">this is me on LinkedIn</a>.</p>
+    <p>You can download my résumé <a href="https://s3-us-west-2.amazonaws.com/tynanssstuff/public/Tynan+Burke+2018.pdf">here (PDF)</a>. I'm also on GitHub as <a href="https://github.com/thearchduke">thearchduke</a>, and <a href="https://www.linkedin.com/in/tynan-burke-27537122?trk=hp-identity-name">this is me on LinkedIn</a>.</p>
     <p>Should the need arise, you can also find my PGP public key <a href="http://keyserver1.pgp.com/vkd/DownloadKey.event?keyid=0x5922558E4431C0B2">here</a>. My email address is available on my résumé.</p>
     <Portfolio/>
 </div>
