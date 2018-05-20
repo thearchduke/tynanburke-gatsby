@@ -12,7 +12,8 @@ export default () => (
                 I write short stories and novels. 
                 Right now I'm putting the finishing touches on a book that's been getting 
                 very positive feedback, and during breaks from that I've been working on 
-                short stories, one of which is scheduled to be published soon (link when available).
+                shorter projects. My short story "The Bagel Shop Owner's Nephew" will be available in 
+                <a href="http://magazine.metaphorosis.com/"><i>Metaphorosis</i></a> later this summer.
             </p>
         </PortfolioItem>
         <PortfolioItem headline="Comics">
