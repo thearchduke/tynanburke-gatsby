@@ -17,7 +17,7 @@ export default () => (
         </PortfolioItem>
         <PortfolioItem headline="Comics">
             <p>I write and draw a webcomic, 
-                <i><a href="https://againststupiditycomic.wordpress.com">Against Stupidity</a></i>.
+                <a href="https://againststupiditycomic.wordpress.com">Against Stupidity</a>.
             </p>
             <blockquote>
                 Jesse Grunwald recently inherited his grandmother's vintage Victorian in Denver. 
