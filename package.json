@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Tynan Burke <tynanburke@gmail.com>",
   "dependencies": {
-    "gatsby": "^1.9.277",
+    "gatsby": "^1.9.86",
     "gatsby-cli": "^1.1.58",
     "gatsby-image": "^1.0.55",
     "gatsby-link": "^1.6.46",
