@@ -12,13 +12,11 @@ export default () => (
                 I write short stories and novels. 
                 Right now I'm putting the finishing touches on a book that's been getting 
                 very positive feedback, and during breaks from that I've been working on 
-                shorter projects. You can read my short story, "The Bagel Shop Owner's Nephew," in 
-                <a href="https://magazine.metaphorosis.com/story/2018/the-bagel-shop-owners-nephew-j-tynan-burke/">the August issue of <i>Metaphorosis</i> (or free online at the link)</a>.
+                shorter projects. You can read my short story, "The Bagel Shop Owner's Nephew," in <a href="https://magazine.metaphorosis.com/story/2018/the-bagel-shop-owners-nephew-j-tynan-burke/">the August issue of <i>Metaphorosis</i></a> (or free online at the link).
             </p>
         </PortfolioItem>
         <PortfolioItem headline="Comics">
-            <p>I write and draw a webcomic, 
-                <a href="https://againststupiditycomic.wordpress.com">Against Stupidity</a>.
+            <p>I write and draw a webcomic, <a href="https://againststupiditycomic.wordpress.com">Against Stupidity</a>.
             </p>
             <blockquote>
                 Jesse Grunwald recently inherited his grandmother's vintage Victorian in Denver. 
