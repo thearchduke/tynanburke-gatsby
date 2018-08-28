@@ -53,7 +53,7 @@ export const query = graphql`
         }
         backgroundImageSharp: imageSharp(id: { regex: "/2.jpg/" }) {
             sizes(maxWidth: 1500) {
-                ...GatsbyImageSharpSizes
+                src
             }
         }
     }
