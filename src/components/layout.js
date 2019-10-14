@@ -38,9 +38,6 @@ const Layout = ({ children }) => {
         <footer>
           <br />
           <br />
-          <br />
-          <br />
-          <hr></hr>
           <small>
             © {new Date().getFullYear()}, Built with
             {` `}

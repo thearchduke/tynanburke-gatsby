@@ -1,4 +1,4 @@
 import Typography from "typography";
-import twinPeaksTheme from "typography-theme-twin-peaks";
-const typography = new Typography(twinPeaksTheme);
+import stowLakeTheme from "typography-theme-stow-lake";
+const typography = new Typography(stowLakeTheme);
 export default typography;
