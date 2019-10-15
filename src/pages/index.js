@@ -3,21 +3,22 @@ import { Link } from "gatsby";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
+import { WritingInner } from "./writing";
+import { WorkInner } from "./work";
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Welcome" />
     <h1>Hi there!</h1>
     <p>
-      Welcome to Tynan's little corner of the web, which is{" "}
-      <b>very much under construction</b>.
+      Welcome to my spartan corner of the web. I'm a{" "}
+      <Link to="/work/">software engineer</Link> and{" "}
+      <Link to="/writing/">writer</Link> living in New York City. You can reach
+      me at tynanburke -at- gmail.
     </p>
 
-    <h2>Who?</h2>
-    <p>
-      I'm a <Link to="/work/">software engineer</Link> and{" "}
-      <Link to="/writing/">writer</Link> living in New York City.
-    </p>
+    <WritingInner />
+    <WorkInner />
   </Layout>
 );
 

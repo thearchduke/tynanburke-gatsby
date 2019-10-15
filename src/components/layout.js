@@ -39,7 +39,7 @@ const Layout = ({ children }) => {
           <br />
           <br />
           <small>
-            © {new Date().getFullYear()}, Built with
+            © {new Date().getFullYear()} Tynan Burke. Built with
             {` `}
             <a href="https://www.gatsbyjs.org">Gatsby</a>
           </small>
