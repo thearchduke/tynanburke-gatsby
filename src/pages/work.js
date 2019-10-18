@@ -15,12 +15,9 @@ const WorkInner = () => (
     </p>
 
     <p>
-      I'm on GitHub as{" "}
-      <Link to="http://github.com/thearchduke/">thearchduke</Link>, and here's
-      my{" "}
-      <Link to="https://www.linkedin.com/in/tynan-burke-27537122/">
-        LinkedIn
-      </Link>{" "}
+      I'm on GitHub as <a href="http://github.com/thearchduke/">thearchduke</a>,
+      and here's my{" "}
+      <a href="https://www.linkedin.com/in/tynan-burke-27537122/">LinkedIn</a>{" "}
       profile.
     </p>
   </div>

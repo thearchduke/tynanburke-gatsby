@@ -20,20 +20,20 @@ const WritingInner = () => (
             marginLeft: "1rem",
           }}
         >
-          <Link to="https://books.metaphorosis.com/anthology/2019/metaphorosis-best-of-2018/">
+          <a href="https://books.metaphorosis.com/anthology/2019/metaphorosis-best-of-2018/">
             <MetaphorosisBestOfCover />
-          </Link>
+          </a>
         </div>
         My short story <em>The Bagel Shop Owner's Nephew</em> was published in
         the August 2018 issue of <em>Metaphorosis Magazine</em>. It is available
         for free{" "}
-        <Link to="https://magazine.metaphorosis.com/story/2018/the-bagel-shop-owners-nephew-j-tynan-burke/">
+        <a href="https://magazine.metaphorosis.com/story/2018/the-bagel-shop-owners-nephew-j-tynan-burke/">
           on their website
-        </Link>
+        </a>
         , and as part of the wonderful{" "}
-        <Link to="https://books.metaphorosis.com/anthology/2019/metaphorosis-best-of-2018/">
+        <a href="https://books.metaphorosis.com/anthology/2019/metaphorosis-best-of-2018/">
           Metaphorosis Best of 2018 anthology
-        </Link>
+        </a>
         .
         <br />
         <br />
@@ -70,14 +70,11 @@ const WritingInner = () => (
         </div>
         I review books, blog about LGBT rights and online privacy, and post cute
         pictures of my cat Samwise at{" "}
-        <Link to="https://www.balloon-juice.com/author/tynan/">
-          Balloon-Juice
-        </Link>
-        .
+        <a href="https://www.balloon-juice.com/author/tynan/">Balloon-Juice</a>.
       </li>
       <li>
         More generally, you can find me at{" "}
-        <Link to="https://twitter.com/TynanPants">@tynanpants</Link> on Twitter.
+        <a href="https://twitter.com/TynanPants">@tynanpants</a> on Twitter.
         Follow me for such gems as:
         <br />
         <br />
