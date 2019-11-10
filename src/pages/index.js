@@ -17,6 +17,10 @@ const IndexPage = () => (
       me at tynanburke -at- gmail.
     </p>
 
+    <p>
+      Would you like to join my Minecraft server? Shoot me an email!
+    </p>
+
     <WritingInner />
     <WorkInner />
   </Layout>
