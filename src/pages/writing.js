@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "gatsby";
 
 import MetaphorosisBestOfCover from "../components/images/metaphorosis";
 import Samwise from "../components/images/samwise";
@@ -38,19 +37,23 @@ const WritingInner = () => (
         <br />
         <br />
         <blockquote>
-          Last night, Murray called with another bunch of prophecies, so Yonatan
-          Kaplan hasn't slept yet. He stayed up preparing dossiers on some
-          doomed socialites instead. Now it's a little after dawn, Friday
-          morning, and he's standing in line outside Fox's Bagels with a thermos
-          and a tote bag. He's shaky from too much caffeine and too little
-          sleep, but he doesn't regret it. The socialites will die this weekend,
-          according to Murray, and Murray’s got a good track record...
+          <p>
+            Last night, Murray called with another bunch of prophecies, so
+            Yonatan Kaplan hasn't slept yet. He stayed up preparing dossiers on
+            some doomed socialites instead. Now it's a little after dawn, Friday
+            morning, and he's standing in line outside Fox's Bagels with a
+            thermos and a tote bag. He's shaky from too much caffeine and too
+            little sleep, but he doesn't regret it. The socialites will die this
+            weekend, according to Murray, and Murray’s got a good track
+            record...
+          </p>
         </blockquote>
       </li>
       <li>
-        I'm working on the <em>Floodland Cycle</em>, a fantasy short story cycle
-        set in a world with curious hydrology. The first of these stories is
-        available in the January 2019 issue of{" "}
+        I'm working on the <em>Floodlands Cycle</em>, a fantasy short story
+        cycle set in a world with curious hydrology. The first of these stories,{" "}
+        <em>A Brief Pause Between Floods</em>, is available in the January 2019
+        issue of{" "}
         <em>
           <a href="http://www.swordsandsorcerymagazine.com/index.html">
             Swords and Sorcery Magazine
@@ -60,16 +63,20 @@ const WritingInner = () => (
         <br />
         <br />
         <blockquote>
-          There are monks in the far west who you may have heard of, called
-          Harvesters. They teach that every day changes your life forever. Of
-          course, some days change it more than others; this is about one of
-          <em>those</em> days. I was sixteen, a good age for it.
-          <br />
-          First give me a moment to tell about my ancestral home: Samyra, the
-          Jewel of the South, the City of Palaces. This rain-drenched citadel is
-          built on top of a crag that sticks up from the middle of the coastal
-          Samyran Basin. During flood season—most of the year—the Basin fills to
-          become a tidal estuary...
+          <p>
+            There are monks in the far west who you may have heard of, called
+            Harvesters. They teach that every day changes your life forever. Of
+            course, some days change it more than others; this is about one of{" "}
+            <em>those</em> days. I was sixteen, a good age for it.
+          </p>
+
+          <p>
+            First give me a moment to tell about my ancestral home: Samyra, the
+            Jewel of the South, the City of Palaces. This rain-drenched citadel
+            is built on top of a crag that sticks up from the middle of the
+            coastal Samyran Basin. During flood season—most of the year—the
+            Basin fills to become a tidal estuary...
+          </p>
         </blockquote>
       </li>
       <li>
