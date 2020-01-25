@@ -59,7 +59,7 @@ const WritingInner = () => (
             Swords and Sorcery Magazine
           </a>
         </em>
-        .
+        . You can read it for free on their website.
         <br />
         <br />
         <blockquote>
