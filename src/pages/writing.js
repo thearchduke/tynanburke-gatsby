@@ -16,7 +16,7 @@ const WritingInner = () => (
             maxWidth: "360px",
             width: "20%",
             float: "right",
-            marginLeft: "1rem"
+            marginLeft: "1rem",
           }}
         >
           <a href="https://books.metaphorosis.com/anthology/2019/metaphorosis-best-of-2018/">
@@ -52,14 +52,14 @@ const WritingInner = () => (
       <li>
         I'm working on the <em>Floodlands Cycle</em>, a fantasy short story
         cycle set in a world with curious hydrology. The first of these stories,{" "}
-        <em>A Brief Pause Between Floods</em>, is available in the January 2019
+        <em>A Brief Pause Between Floods</em>, is available in the January 2020
         issue of{" "}
         <em>
-          <a href="http://www.swordsandsorcerymagazine.com/index.html">
+          <a href="https://www.swordsandsorcerymagazine.com/a-brief-pause-between-floods.html">
             Swords and Sorcery Magazine
           </a>
         </em>
-        . You can read it for free on their website.
+        . You can read it for free at the link.
         <br />
         <br />
         <blockquote>
@@ -93,7 +93,7 @@ const WritingInner = () => (
             maxWidth: "500px",
             width: "30%",
             float: "right",
-            marginLeft: "1rem"
+            marginLeft: "1rem",
           }}
         >
           <Samwise />
