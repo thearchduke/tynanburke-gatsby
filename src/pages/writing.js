@@ -23,8 +23,9 @@ const WritingInner = () => (
             <MetaphorosisBestOfCover />
           </a>
         </div>
-        My short story <em>The Bagel Shop Owner's Nephew</em> was published in
-        the August 2018 issue of <em>Metaphorosis Magazine</em>. It is available{" "}
+        My urban fantasy short story <em>The Bagel Shop Owner's Nephew</em> was
+        published in the August 2018 issue of <em>Metaphorosis Magazine</em>. It
+        is available{" "}
         <a href="https://magazine.metaphorosis.com/story/2018/the-bagel-shop-owners-nephew-j-tynan-burke/">
           on their website
         </a>
@@ -33,39 +34,18 @@ const WritingInner = () => (
           Metaphorosis Best of 2018 anthology
         </a>
         .
-        <br />
-        <br />
-        <blockquote>
-          <p>
-            Last night, Murray called with another bunch of prophecies, so
-            Yonatan Kaplan hasn't slept yet. He stayed up preparing dossiers on
-            some doomed socialites instead. Now it's a little after dawn, Friday
-            morning, and he's standing in line outside Fox's Bagels with a
-            thermos and a tote bag...
-          </p>
-        </blockquote>
       </li>
       <li>
         I'm working on the <em>Floodlands Cycle</em>, a fantasy short story
         cycle set in a world with curious hydrology. The first of these stories,{" "}
-        <em>A Brief Pause Between Floods</em>, is available in the January 2020
+        <em>A Brief Pause Between Floods</em>, is available in the February 2020
         issue of{" "}
         <em>
-          <a href="https://www.swordsandsorcerymagazine.com/a-brief-pause-between-floods.html">
+          <a href="https://swordsandsorcerymagazine.com/archive/a-brief-pause-between-floods-by-j-tynan-burke">
             Swords and Sorcery Magazine
           </a>
         </em>
         .
-        <br />
-        <br />
-        <blockquote>
-          <p>
-            There are monks in the far west who you may have heard of, called
-            Harvesters. They teach that every day changes your life forever. Of
-            course, some days change it more than others; this is about one of{" "}
-            <em>those</em> days. I was sixteen, a good age for it...
-          </p>
-        </blockquote>
       </li>
       <li>
         I'll have five short stories in the <em>Reading 5X5 x2</em> anthology,
