@@ -36,16 +36,15 @@ const WritingInner = () => (
         .
       </li>
       <li>
-        I'm working on the <em>Floodlands Cycle</em>, a fantasy short story
-        cycle set in a world with curious hydrology. The first of these stories,{" "}
-        <em>A Brief Pause Between Floods</em>, is available in the February 2020
-        issue of{" "}
+        You can read my high fantasy short story{" "}
+        <em>A Brief Pause Between Floods</em> in the February 2020 issue of{" "}
         <em>
           <a href="https://swordsandsorcerymagazine.com/archive/a-brief-pause-between-floods-by-j-tynan-burke">
             Swords and Sorcery Magazine
           </a>
         </em>
-        .
+        . I'll be revisiting the world later this year for another entry in the{" "}
+        <em>Floodlands Cycle</em>.
       </li>
       <li>
         I'll have five short stories in the <em>Reading 5X5 x2</em> anthology,
