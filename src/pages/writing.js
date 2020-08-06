@@ -31,7 +31,7 @@ const WritingInner = () => (
         </a>
         &nbsp;I have five stories in this wonderful collection. To the blurb:
       </p>
-      <blockquote>
+      <blockquote style={{ marginLeft: "0rem" }}>
         <p>How do authors' voices change when they collaborate?</p>
         <p>
           A round-robin of great science fiction and fantasy stories: five
