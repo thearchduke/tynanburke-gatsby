@@ -4,11 +4,50 @@ import MetaphorosisBestOfCover from "../components/images/metaphorosis";
 import Samwise from "../components/images/samwise";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
+import Cover5x5 from "../components/images/5x5";
 
 const WritingInner = () => (
   <div>
     <h1>Writing</h1>
-    <h2>Short fiction</h2>
+    <h2>
+      <i>Reading 5X5 x2: Duets</i>
+    </h2>
+    <div>
+      <div
+        style={{
+          maxWidth: "460px",
+          width: "25%",
+          float: "right",
+          marginLeft: "1rem",
+        }}
+      >
+        <a href="https://www.amazon.com/Reading-5X5-x2-Morris-Allen-ebook/dp/B08C9KN7JS">
+          <Cover5x5 />
+        </a>
+      </div>
+      <p>
+        <a href="https://www.amazon.com/Reading-5X5-x2-Morris-Allen-ebook/dp/B08C9KN7JS">
+          Out now from Verdage Press!
+        </a>
+        &nbsp;I have five stories in this wonderful collection. To the blurb:
+      </p>
+      <blockquote>
+        <p>How do authors' voices change when they collaborate?</p>
+        <p>
+          A round-robin of great science fiction and fantasy stories: five
+          authors each collaborating with each of the others and writing solo.
+          Epic duels both human and divine, alien spaceships, a train full of
+          sacrifices barreling straight toward a god’s seat of power, and much,
+          much more.
+        </p>
+      </blockquote>
+      <p>
+        This one was a lot of fun, and includes my best story to date,{" "}
+        <i>Sudden Oak Death</i>. You really ought to check it out.
+      </p>
+    </div>
+
+    <h2>Other short fiction</h2>
     <ul>
       <li>
         <div
@@ -46,12 +85,7 @@ const WritingInner = () => (
         . I'll be revisiting the world later this year for another entry in the{" "}
         <em>Floodlands Cycle</em>.
       </li>
-      <li>
-        I'll have five short stories in the <em>Reading 5X5 x2</em> anthology,
-        which should come out this summer. Check back for updates!
-      </li>
     </ul>
-
     <h2>Nonfiction</h2>
     <ul>
       <li>
