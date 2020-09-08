@@ -42,7 +42,7 @@ const WritingInner = () => (
         </p>
       </blockquote>
       <p>
-        This one was a lot of fun, and includes my best story to date,{" "}
+        This one was a lot of fun, and includes my favorite story to date,{" "}
         <i>Sudden Oak Death</i>. You really ought to check it out.
       </p>
     </div>
@@ -82,7 +82,7 @@ const WritingInner = () => (
             Swords and Sorcery Magazine
           </a>
         </em>
-        . I'll be revisiting the world later this year for another entry in the{" "}
+        . I hope to revisit the world soon for another entry in the{" "}
         <em>Floodlands Cycle</em>.
       </li>
     </ul>
@@ -102,7 +102,7 @@ const WritingInner = () => (
             <em>Samwise the enormous cat</em>
           </small>
         </div>
-        I review books, blog about LGBT rights and online privacy, and post cute
+        I review books, blog about the Internet and LGBT rights, and post cute
         pictures of my cat Samwise at{" "}
         <a href="https://www.balloon-juice.com/author/tynan/">Balloon-Juice</a>.
       </li>
