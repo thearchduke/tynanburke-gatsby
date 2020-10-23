@@ -75,15 +75,14 @@ const WritingInner = () => (
         .
       </li>
       <li>
-        You can read my high fantasy short story{" "}
-        <em>A Brief Pause Between Floods</em> in the February 2020 issue of{" "}
+        My fantasy short story, <em>A Brief Pause Between Floods</em>, was
+        published in the February 2020 issue of{" "}
         <em>
           <a href="https://swordsandsorcerymagazine.com/archive/a-brief-pause-between-floods-by-j-tynan-burke">
             Swords and Sorcery Magazine
           </a>
         </em>
-        . I hope to revisit the world soon for another entry in the{" "}
-        <em>Floodlands Cycle</em>.
+        . I hope to revisit the world soon.
       </li>
     </ul>
     <h2>Nonfiction</h2>
