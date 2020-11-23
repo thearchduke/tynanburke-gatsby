@@ -21,7 +21,7 @@ class RssParser {
   }
 
   addPost(post) {
-    this.posts.push({ title: post.title, link: post.link });
+    this.posts.unshift({ title: post.title, link: post.link });
     this.beeper.beep();
   }
 
