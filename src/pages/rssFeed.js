@@ -47,6 +47,7 @@ export default class RssFeed extends React.Component {
   }
 
   componentDidMount() {
+    await this.parser.fetch();
     setInterval(async () => {
       await this.parser.fetch();
       this.setState({ posts: this.parser.posts });
