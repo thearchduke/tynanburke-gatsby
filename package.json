@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "colorette": "^1.2.1",
     "gatsby": "^2.16.1",
     "gatsby-image": "^2.2.29",
     "gatsby-plugin-manifest": "^2.2.23",
@@ -19,6 +20,7 @@
     "react-dom": "^16.10.2",
     "react-helmet": "^5.2.1",
     "react-typography": "^0.16.19",
+    "rss-parser": "^3.9.0",
     "typography": "^0.16.19",
     "typography-theme-stow-lake": "^0.16.19",
     "typography-theme-twin-peaks": "^0.16.19"
