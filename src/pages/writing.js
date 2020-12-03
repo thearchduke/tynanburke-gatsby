@@ -82,7 +82,7 @@ const WritingInner = () => (
             Swords and Sorcery Magazine
           </a>
         </em>
-        . I hope to revisit the world soon.
+        . Free to read online. I hope to revisit the world soon.
       </li>
     </ul>
     <h2>Nonfiction</h2>
