@@ -107,8 +107,11 @@ const WritingInner = () => (
       </li>
       <li>
         More generally, you can find me at{" "}
-        <a href="https://twitter.com/TynanPants">@tynanpants</a> on Twitter.
-        Follow me for such gems as:
+        <a href="https://twitter.com/TynanPants">@tynanpants</a> on Twitter and{" "}
+        <a rel="me" href="https://writing.exchange/@tynanpants">
+          Mastodon
+        </a>
+        . Follow me for such gems as:
         <br />
         <br />
         <blockquote class="twitter-tweet">
