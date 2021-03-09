@@ -5,6 +5,7 @@ import Samwise from "../components/images/samwise";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Cover5x5 from "../components/images/5x5";
+import { RssDisplay } from "../components/rss";
 
 const WritingInner = () => (
   <div>
@@ -104,6 +105,7 @@ const WritingInner = () => (
         I review books, blog about the Internet and LGBT rights, and post cute
         pictures of my cat Samwise at{" "}
         <a href="https://www.balloon-juice.com/author/tynan/">Balloon-Juice</a>.
+        <RssDisplay url="https://www.balloon-juice.com/category/books/recommended-reading/feed" />
       </li>
       <li>
         More generally, you can find me at{" "}
