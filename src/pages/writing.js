@@ -44,7 +44,7 @@ const WritingInner = () => (
       </blockquote>
       <p>
         This one was a lot of fun, and includes my favorite story to date,{" "}
-        <i>Sudden Oak Death</i>. You really ought to check it out.
+        <i>Sudden Oak Death</i>.
       </p>
     </div>
     <h2>Other short fiction</h2>
@@ -106,7 +106,7 @@ const WritingInner = () => (
       <div className="wrapper">
         <div className="one-one with-border">
           <RssDisplay
-            url="https://www.balloon-juice.com/category/books/recommended-reading/feed"
+            url="https://www.balloon-juice.com/category/books/recommended-reading/feed?author=tynan"
             title="Recent Book Reviews"
             nPosts={3}
           />
