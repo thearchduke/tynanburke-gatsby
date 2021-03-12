@@ -107,14 +107,14 @@ const WritingInner = () => (
         <div className="one-one with-border">
           <RssDisplay
             url="https://www.balloon-juice.com/category/books/recommended-reading/feed"
-            title="Book Reviews"
+            title="Recent Book Reviews"
             nPosts={3}
           />
         </div>
         <div className="one-two with-border">
           <RssDisplay
             url="https://www.balloon-juice.com/category/science-and-technology/tech-news-and-issues/feed?author=tynan"
-            title="Tech News"
+            title="Recent Tech News"
             nPosts={3}
           />
         </div>
