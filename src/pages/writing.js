@@ -5,7 +5,7 @@ import Samwise from "../components/images/samwise";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Cover5x5 from "../components/images/5x5";
-import { RssDisplay } from "../components/rss";
+import RssDisplay from "../components/rss";
 
 const WritingInner = () => (
   <div>
@@ -47,7 +47,6 @@ const WritingInner = () => (
         <i>Sudden Oak Death</i>. You really ought to check it out.
       </p>
     </div>
-
     <h2>Other short fiction</h2>
     <ul>
       <li>
@@ -87,46 +86,59 @@ const WritingInner = () => (
       </li>
     </ul>
     <h2>Nonfiction</h2>
-    <ul>
-      <li>
-        <div
-          style={{
-            maxWidth: "500px",
-            width: "30%",
-            float: "right",
-            marginLeft: "1rem",
-          }}
-        >
-          <Samwise />
-          <small style={{ horizontalAlign: "center" }}>
-            <em>Samwise the enormous cat</em>
-          </small>
+    <div
+      style={{
+        maxWidth: "500px",
+        width: "30%",
+        float: "right",
+        marginLeft: "1rem",
+      }}
+    >
+      <Samwise />
+      <small style={{ horizontalAlign: "center" }}>
+        <em>Samwise the enormous cat</em>
+      </small>
+    </div>
+    <p>
+      I review books, blog about the Internet and LGBT rights, and post cute
+      pictures of my cat Samwise at{" "}
+      <a href="https://www.balloon-juice.com/author/tynan/">Balloon-Juice</a>.
+      <div className="wrapper">
+        <div className="one-one with-border">
+          <RssDisplay
+            url="https://www.balloon-juice.com/category/books/recommended-reading/feed"
+            title="Book Reviews"
+            nPosts={3}
+          />
         </div>
-        I review books, blog about the Internet and LGBT rights, and post cute
-        pictures of my cat Samwise at{" "}
-        <a href="https://www.balloon-juice.com/author/tynan/">Balloon-Juice</a>.
-        <RssDisplay url="https://www.balloon-juice.com/category/books/recommended-reading/feed" />
-      </li>
-      <li>
-        More generally, you can find me at{" "}
-        <a href="https://twitter.com/TynanPants">@tynanpants</a> on Twitter and{" "}
-        <a rel="me" href="https://writing.exchange/@tynanpants">
-          Mastodon
+        <div className="one-two with-border">
+          <RssDisplay
+            url="https://www.balloon-juice.com/category/science-and-technology/tech-news-and-issues/feed?author=tynan"
+            title="Tech News"
+            nPosts={3}
+          />
+        </div>
+      </div>{" "}
+    </p>
+    <p>
+      More generally, you can find me at{" "}
+      <a href="https://twitter.com/TynanPants">@tynanpants</a> on Twitter and{" "}
+      <a rel="me" href="https://writing.exchange/@tynanpants">
+        Mastodon
+      </a>
+      . Follow me for such gems as:
+      <br />
+      <br />
+      <blockquote className="twitter-tweet">
+        <p lang="en" dir="ltr">
+          Gonna turn on Netflix and watch David Tennant say Brrrroadcherrch
+        </p>
+        &mdash; Tynan! (@TynanPants){" "}
+        <a href="https://twitter.com/TynanPants/status/1166546690138103809?ref_src=twsrc%5Etfw">
+          August 28, 2019
         </a>
-        . Follow me for such gems as:
-        <br />
-        <br />
-        <blockquote class="twitter-tweet">
-          <p lang="en" dir="ltr">
-            Gonna turn on Netflix and watch David Tennant say Brrrroadcherrch
-          </p>
-          &mdash; Tynan! (@TynanPants){" "}
-          <a href="https://twitter.com/TynanPants/status/1166546690138103809?ref_src=twsrc%5Etfw">
-            August 28, 2019
-          </a>
-        </blockquote>
-      </li>
-    </ul>
+      </blockquote>
+    </p>
   </div>
 );
 
