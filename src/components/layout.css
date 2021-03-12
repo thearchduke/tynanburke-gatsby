@@ -1,0 +1,24 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  margin-top: 10px;
+}
+.rss-title {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.one-one {
+  grid-column: 1;
+  grid-row: 1;
+}
+.one-two {
+  grid-column: 2;
+  grid-row: 1;
+}
+.with-border {
+  border-radius: 5px;
+  border: 1px solid hsla(0, 0%, 0%, 0.8);
+}
