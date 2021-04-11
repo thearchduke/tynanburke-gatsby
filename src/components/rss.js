@@ -1,35 +1,8 @@
 import React from "react";
-import Parser from "rss-parser";
 
 const betterGetter = (url, params) => {
   return fetch(url + "?" + new URLSearchParams(params));
 };
-
-class RssParser {
-  constructor(url) {
-    this.url = this.CORS_PROXY + url;
-    this.parser = new Parser();
-    this.posts = [];
-  }
-
-  addPost(post) {
-    this.posts.unshift({ title: post.title, link: post.link });
-  }
-
-  hasPost(post) {
-    return this.posts.filter((p) => p.title === post.title).length > 0;
-  }
-
-  async fetch() {
-    let feed = await this.parser.parseURL(this.url);
-    feed.items.forEach((post) => {
-      console.log("NEW POST!");
-      if (!this.hasPost(post)) {
-        this.addPost(post);
-      }
-    });
-  }
-}
 
 export default class RssDisplay extends React.Component {
   constructor(props) {

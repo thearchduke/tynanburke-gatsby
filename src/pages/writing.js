@@ -44,7 +44,7 @@ const WritingInner = () => (
       </blockquote>
       <p>
         This one was a lot of fun, and includes my favorite story to date,{" "}
-        <i>Sudden Oak Death</i>. You really ought to check it out.
+        <i>Sudden Oak Death</i>.
       </p>
     </div>
     <h2>Other short fiction</h2>
