@@ -1,3 +1,5 @@
 # tynanburke.com
 
-## powered by gatsby
+## Running locally
+
+Run both `yarn run gatsby develop` and `yarn start:lambda`.
