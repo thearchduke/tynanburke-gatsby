@@ -30,7 +30,8 @@ const WritingInner = () => (
         <a href="https://www.amazon.com/Reading-5X5-x2-Morris-Allen-ebook/dp/B08C9KN7JS">
           Out now from Verdage Press!
         </a>
-        &nbsp;I have five stories in this wonderful collection. To the blurb:
+        &nbsp;I have five stories in this wonderful collection, which sat for a
+        week at #2 on the Kindle new sci-fi anthologies list. To the blurb:
       </p>
       <blockquote style={{ marginLeft: "0rem" }}>
         <p>How do authors' voices change when they collaborate?</p>
