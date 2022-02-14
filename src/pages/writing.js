@@ -10,82 +10,63 @@ import RssDisplay from "../components/rss";
 const WritingInner = () => (
   <div>
     <h1>Writing</h1>
-    <h2>
-      <i>Reading 5X5 x2: Duets</i>
-    </h2>
-    <div>
-      <div
-        style={{
-          maxWidth: "460px",
-          width: "25%",
-          float: "right",
-          marginLeft: "1rem",
-        }}
-      >
-        <a href="https://www.amazon.com/Reading-5X5-x2-Morris-Allen-ebook/dp/B08C9KN7JS">
-          <Cover5x5 />
-        </a>
-      </div>
-      <p>
-        <a href="https://www.amazon.com/Reading-5X5-x2-Morris-Allen-ebook/dp/B08C9KN7JS">
-          Out now from Verdage Press!
-        </a>
-        &nbsp;I have five stories in this wonderful collection, which sat for a
-        week at #2 on the Kindle new sci-fi anthologies list. To the blurb:
-      </p>
-      <blockquote style={{ marginLeft: "0rem" }}>
-        <p>How do authors' voices change when they collaborate?</p>
-        <p>
-          A round-robin of great science fiction and fantasy stories: five
-          authors each collaborating with each of the others and writing solo.
-          Epic duels both human and divine, alien spaceships, a train full of
-          sacrifices barreling straight toward a god’s seat of power, and much,
-          much more.
-        </p>
-      </blockquote>
-      <p>
-        This one was a lot of fun, and includes my favorite story to date,{" "}
-        <i>Sudden Oak Death</i>.
-      </p>
+    <h2>Short fiction</h2>
+    <div
+      style={{
+        maxWidth: "320px",
+        width: "20%",
+        float: "right",
+        marginLeft: "1rem",
+      }}
+    >
+      <a href="https://books.metaphorosis.com/anthology/2019/metaphorosis-best-of-2018/">
+        <MetaphorosisBestOfCover />
+      </a>
     </div>
-    <h2>Other short fiction</h2>
+    <div
+      style={{
+        maxWidth: "320px",
+        width: "20%",
+        float: "right",
+        marginLeft: "1rem",
+      }}
+    >
+      <a href="https://www.amazon.com/Reading-5X5-x2-Morris-Allen-ebook/dp/B08C9KN7JS">
+        <Cover5x5 />
+      </a>
+    </div>
     <ul>
       <li>
-        <div
-          style={{
-            maxWidth: "360px",
-            width: "20%",
-            float: "right",
-            marginLeft: "1rem",
-          }}
-        >
-          <a href="https://books.metaphorosis.com/anthology/2019/metaphorosis-best-of-2018/">
-            <MetaphorosisBestOfCover />
-          </a>
-        </div>
-        My urban fantasy short story <em>The Bagel Shop Owner's Nephew</em> was
-        published in the August 2018 issue of <em>Metaphorosis Magazine</em>. It
-        is available{" "}
+        <a href="https://magazine.metaphorosis.com/story/2021/the-unlucky-few-who-must-not-cast-j-tynan-burke/">"The Unlucky Few Who Must Not Cast"</a>, August 2021. An arcanist is forced to attend a twelve-step meeting for magic dependence. Available <a href="https://magazine.metaphorosis.com/story/2021/the-unlucky-few-who-must-not-cast-j-tynan-burke/">free online</a>.
+      </li>
+      <li>
+        <a href="https://magazine.metaphorosis.com/story/2018/the-bagel-shop-owners-nephew-j-tynan-burke/">"The Bagel Shop Owner's Nephew"</a>, August 2018. Yonatan Kaplan deals with a troublesome prophet. Available{" "}
         <a href="https://magazine.metaphorosis.com/story/2018/the-bagel-shop-owners-nephew-j-tynan-burke/">
-          on their website
+          free online
         </a>
-        , and as part of the wonderful{" "}
+        , and as part of the (excellent){" "}
         <a href="https://books.metaphorosis.com/anthology/2019/metaphorosis-best-of-2018/">
-          Metaphorosis Best of 2018 anthology
+          <em>Metaphorosis Best of 2018 anthology</em>
         </a>
         .
       </li>
       <li>
-        My fantasy short story, <em>A Brief Pause Between Floods</em>, was
-        published in the February 2020 issue of{" "}
-        <em>
-          <a href="https://swordsandsorcerymagazine.com/archive/a-brief-pause-between-floods-by-j-tynan-burke">
-            Swords and Sorcery Magazine
-          </a>
-        </em>
-        . Free to read online. I hope to revisit the world soon.
+        "<a href="https://swordsandsorcerymagazine.com/archive/a-brief-pause-between-floods-by-j-tynan-burke">A Brief Pause Between Floods</a>", February 2020. A young woman deals with thieves and a monk during an important test. Available <a href="https://swordsandsorcerymagazine.com/archive/a-brief-pause-between-floods-by-j-tynan-burke">free online</a>.
+      </li>
+      <li>
+        <i><a href="https://www.amazon.com/Reading-5X5-x2-Morris-Allen-ebook/dp/B08C9KN7JS">Reading 5X5 x2: Duets</a></i>, Verdage Press, 2020. I have five stories in this collection, which sat for a
+        week at #2 on the Kindle new sci-fi anthologies list:
+        <ul>
+          <li>"Sudden Oak Death". In a habitat orbiting Enceladus, an arborist's prize trees fall ill.</li>
+          <li>"Infernal® Policies and Procedures Have Changed", with Douglas Anstruther. An ancient general makes a surprising discovery while working for Lucifer.</li>
+          <li>"Boro Boro", with Evan Marcroft. Central California coastal horror.</li>
+          <li>"Project Blackbook", with David Gallay. Excerpt from the congressional report about a disastrous decision made by a Silicon Valley company.</li>
+          <li>"The Relic", with L'Erin Ogle. Slowly dying on an alien spaceship, alone but for the voices in your head.</li>
+        </ul>
       </li>
     </ul>
+    <h2>
+    </h2>
     <h2>Nonfiction</h2>
     <div
       style={{
@@ -101,7 +82,7 @@ const WritingInner = () => (
       </small>
     </div>
     <p>
-      I review books, blog about the Internet and LGBT rights, and post cute
+      I review books, blog about technology, and post cute
       pictures of my cat Samwise at{" "}
       <a href="https://www.balloon-juice.com/author/tynan/">Balloon-Juice</a>.
       <div className="wrapper">
@@ -140,7 +121,7 @@ const WritingInner = () => (
         </a>
       </blockquote>
     </p>
-  </div>
+  </div >
 );
 
 const WritingPage = () => (
