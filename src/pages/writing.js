@@ -67,7 +67,7 @@ const WritingInner = () => (
     </ul>
     <h2>
     </h2>
-    <h2>Nonfiction</h2>
+    {/* <h2>Nonfiction</h2>
     <div
       style={{
         maxWidth: "500px",
@@ -120,7 +120,7 @@ const WritingInner = () => (
           August 28, 2019
         </a>
       </blockquote>
-    </p>
+    </p> */}
   </div >
 );
 

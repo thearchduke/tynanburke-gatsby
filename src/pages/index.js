@@ -17,8 +17,8 @@ const IndexPage = () => (
       me at tynanburke -at- gmail.
     </p>
 
-    <WritingInner />
     <WorkInner />
+    <WritingInner />
   </Layout>
 );
 

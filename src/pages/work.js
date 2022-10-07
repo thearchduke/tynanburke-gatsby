@@ -7,8 +7,9 @@ const WorkInner = () => (
   <div>
     <h1>Software engineering</h1>
     <p>
-      I work up and down the stack, generally from the web server on back. These
-      days I'm mostly working with TypeScript and Ruby applications, served via
+      I'm a full-stack engineer with an emphasis on the server side. I also enjoy 
+      working on event-based systems and anything that's an explicit state machine. 
+      These days I'm mostly working with TypeScript and Ruby applications, served via
       Google Cloud Platform. During downtime I enjoy producing better tooling,
       improving CI setups, and keeping up with emerging tech.
     </p>
